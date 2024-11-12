@@ -2,11 +2,7 @@ import html from "html-literal";
 
 export default () => html`
   <section id="order">
-    <form
-      id="order"
-      method="POST"
-      action="https://sc-pizza-api.onrender.com/pizzas/form"
-    >
+    <form id="order">
       <h2>Order a pizza</h2>
       <div>
         <label for="customer">Customer</label>
